@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./mystyle.css">
+</head>
+<body class="m-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="#"><img class="cust-logo" src="./src/CNNlogo.png"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link text-light nav-item-text" href="#">World</a></li>
+                    <li class="nav-item ms-md-3"><a class="nav-link text-light nav-item-text" href="#">US Politics</a></li>
+                    <li class="nav-item ms-md-3"><a class="nav-link text-light nav-item-text" href="#">Business</a></li>
+                    <li class="nav-item ms-md-3"><a class="nav-link text-light nav-item-text" href="#">Health</a></li>
+                    <li class="nav-item ms-md-3"><a class="nav-link text-light nav-item-text" href="#">Sports</a></li>
+                </ul>
+            </div>
+            <button class="navbutton modebutton" onclick="toggleLight()">&#9728;</button>
+        </div>
+    </nav>
+    <div class="row vw-100 d-flex flex-md-row-reverse flex-sm-column-reverse">
+        <div class="col-md-6 d-flex pt-5 px-5 justify-content-center">
+
+            <div class="card cust-card bg-light text-black sports" style="width: 18rem;">
+                <img class="card-img-top" src="./src/MUliverpool.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Manchester United</h5>
+                  <p class="card-text">A major loss for MU after taking 7 goals from liverpool tonight.</p>
+                  <a href="#" class="btn btn-secondary">view</a>
+                </div>
+            </div>
+
+            <div class="card cust-card bg-light text-black sports" style="width: 18rem;">
+                <img class="card-img-top" src="./src/hotel.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Newly Open Hotel</h5>
+                  <p class="card-text">A unique shaped hotel has been open on Dubai.</p>
+                  <a href="#" class="btn btn-secondary">view</a>
+                </div>
+            </div>            
+        </div>
+
+        <div class="col-md-6">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block cust-img  mx-auto" src="./src/ukraine.jpg" alt="First slide">
+                        <div class="carousel-caption">
+                            <h5>Russian invasion of Ukraine</h5>
+                            <p>At least 16 people have been killed in the latest wave of Russian strikes on Ukraine.</p>
+                        </div>
+                    </div>
+
+                  <div class="carousel-item">
+                   <img class="d-block cust-img mx-auto" src="./src/willow.jpg" alt="Second slide">
+                   <div class="carousel-caption">
+                        <h5>Willow Project</h5>
+                        <p>A recently approved project by US government that could kill billions.</p>
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <img class="d-block cust-img mx-auto" src="./src/delta.jpg" alt="Third slide">
+                    <div class="carousel-caption">
+                        <h5>Delta Air Incident</h5>
+                        <p>Passenger opens door, deploys emergency exit slide on plane.</p>
+                    </div>
+                  </div>
+
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </a>
+              </div>
+        </div>
+    </div>
+    <div class="row vw-100 d-flex flex-md-row-reverse flex-sm-column-reverse">
+        <div class="col-md-12 d-flex flex-md-row pt-5 px-5 justify-content-center">
+            <div href="#" class="card cust-card bg-light text-black sports" style="width: 18rem;">
+                <img class="card-img-top" src="./src/taiwan.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Taiwan President Visits</h5>
+                  <p class="card-text">Former Taiwan President Ma Ying-jeou departed for a tour of China Monday.</p>
+                  <a href="#" class="btn btn-secondary">view</a>
+                </div>
+            </div>
+
+            <a href="#" class="card cust-card bg-light text-black sports" style="width: 18rem;">
+                <img class="card-img-top" src="./src/myanmar.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Myanmar Agression</h5>
+                  <p class="card-text">Myanmar's top leader has told the nation's military forces they need to take decisive action against those fighting army rule.</p>
+                </div>
+            </a>
+
+            <div class="card cust-card bg-light text-black sports" style="width: 18rem;">
+                <img class="card-img-top" src="./src/japan.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Japan Diplomacy</h5>
+                  <p class="card-text">Tokyo is demanding that China release a Japanese national detained in Beijing.</p>
+                  <a href="#" class="btn btn-secondary">view</a>
+                </div>
+            </div>
+
+            <div href="#" class="card cust-card bg-light text-black sports" style="width: 18rem;">
+                <img class="card-img-top" src="./src/london.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 href="#" class="card-title">London Landmarks</h5>
+                  <p class="card-text">A view destinations recommendation if you planning on visiting London.</p>
+                  <a href="#" class="btn btn-secondary">view</a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./myscript.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body{
+    background-color: white;
+}
+body.darkmode{
+    background-color: black;
+}
+.cust-logo{
+    width: 80px;
+    height: 100%;
+}
+.login{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.cust-img{
+    width: 500px;
+    height: 300px;
+}
+.carousel-inner{
+    position:relative;
+    top:50%;
+    transform: translateY(50px);
+}
+
+.carousel-control-next, .carousel-control-prev{
+    transform: translateY(50px);
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(100%);
+  }
+
+.carousel-caption{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    text-shadow: 2px 2px 2px #202020;
+    transform: translateY(25px);
+    padding: 0px 10%;
+}
+.cust-card{
+    margin: 10px 10px;
+}
+.card-text{
+    font-size: 12px;
+}
+.nav-item-text{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbutton{
+    text-decoration: none;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    color: white;
+}
+.modebutton{
+    font-size: 20px;
+}
