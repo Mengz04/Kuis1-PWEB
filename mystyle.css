@@ -21,7 +21,9 @@ body.darkmode{
     top:50%;
     transform: translateY(50px);
 }
-
+.cardheader{
+    text-decoration: none;
+}
 .carousel-control-next, .carousel-control-prev{
     transform: translateY(50px);
 }
